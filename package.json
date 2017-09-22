@@ -1,0 +1,37 @@
+{
+  "name": "publishnpmpackage",
+  "version": "1.4.1",
+  "description": "try to show how to public a npm package so that can be download and be installed thought npm ",
+  "main": "index.js",
+  "bin": {
+    "hxq": "./bin/hxq.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "qiuhaoxin",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "commander": "^2.11.0",
+    "file-loader": "^0.11.2",
+    "jsx-loader": "^0.13.2",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "rimraf": "^2.6.2",
+    "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "css-loader": "^0.28.7",
+    "immutable": "^3.8.1",
+    "npm-develop": "0.0.46",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "style-loader": "^0.18.2"
+  }
+}
